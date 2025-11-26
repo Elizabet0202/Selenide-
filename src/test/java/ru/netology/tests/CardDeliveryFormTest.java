@@ -15,7 +15,6 @@ public class CardDeliveryFormTest {
 
     @BeforeEach
     void setUp() {
-        Configuration.headless = true; // headless режим
         open("http://localhost:9999"); // URL целевого сервиса, который запускается локально
     }
 
